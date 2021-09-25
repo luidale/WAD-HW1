@@ -118,3 +118,42 @@ a:active {
     margin: 5px 5px 5px 10px;
     height: 30px;
 }
+
+div.login-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    width: 450px;
+    margin: 50px auto 30px auto;
+    box-shadow: 2px 2px 15px #c5c5c5;
+    padding: 5px 0px 10px 0px;
+    background-color: #ffffff;
+	
+}
+.login-container a,
+a:visited,
+a:active {
+    color: #1778bd;
+    text-decoration: none;
+}
+.forgotten-password {
+    color: #1778bd;
+    text-decoration: none;
+	font-size: 10pt;
+}
+.login-container input {
+    padding:5px 15px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+.login-container input[type=submit] {
+    padding:5px 15px; 
+    background:#115a98; 
+	color: white;
+}
+.buttonHolder {
+	text-align: center; 
+}
+.textHolder {
+	text-align: center; 
+}
